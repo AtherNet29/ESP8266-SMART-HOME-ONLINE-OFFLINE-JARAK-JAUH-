@@ -107,10 +107,6 @@
   <li>Buka browser di HP/Laptop yang terhubung ke WiFi yang sama.</li>
   <li>Ketik IP address Wemos (terlihat di Serial Monitor), atau buka langsung:</li>
 </ol>
-<div align="center">
-  <code>https://potonasib20-glitch.github.io/smart-home/index.html?topic=smarthome/device04</code>
-</div>
-<p><i>* Ganti <code>smarthome/device04</code> sesuai BASE_TOPIC yang dikonfigurasi di kode.</i></p>
 
 <h3>3. Menambahkan ke Multi Device Dashboard</h3>
 <ol>
