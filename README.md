@@ -159,43 +159,34 @@
   <tr>
     <td align="center" width="50%">
       <img src="https://raw.githubusercontent.com/AtherNet29/ESP8266-SMART-HOME-ONLINE-OFFLINE-JARAK-JAUH-/ec2b1cd3a4ebd7c6aaac5d9eced1b6d4a86e9f0d/GAMBAR%201.jpg" width="300" alt="Gambar 1" /><br>
-      <sub><b>Produk Smart Home 4CH</b></sub>
+      <sub><b>Logo Smart Home </b></sub>
     </td>
     <td align="center" width="50%">
       <img src="https://raw.githubusercontent.com/AtherNet29/ESP8266-SMART-HOME-ONLINE-OFFLINE-JARAK-JAUH-/ec2b1cd3a4ebd7c6aaac5d9eced1b6d4a86e9f0d/GAMBAR%202.jpg" width="300" alt="Gambar 2" /><br>
-      <sub><b>Detail Modul Wemos & Relay</b></sub>
+      <sub><b>Diagram Modul 4 Relay Online</b></sub>
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
       <img src="https://raw.githubusercontent.com/AtherNet29/ESP8266-SMART-HOME-ONLINE-OFFLINE-JARAK-JAUH-/ec2b1cd3a4ebd7c6aaac5d9eced1b6d4a86e9f0d/GAMBAR%203.jpg" width="300" alt="Gambar 3" /><br>
-      <sub><b>Skema Koneksi Kabel</b></sub>
+      <sub><b>Diagram Modul 4 Relay Offline</b></sub>
     </td>
     <td align="center" width="50%">
       <img src="https://raw.githubusercontent.com/AtherNet29/ESP8266-SMART-HOME-ONLINE-OFFLINE-JARAK-JAUH-/ec2b1cd3a4ebd7c6aaac5d9eced1b6d4a86e9f0d/GAMBAR%204.jpg" width="300" alt="Gambar 4" /><br>
-      <sub><b>Proses Pemasangan</b></sub>
+      <sub><b>Tampilan Control Menu Utama</b></sub>
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
       <img src="https://raw.githubusercontent.com/AtherNet29/ESP8266-SMART-HOME-ONLINE-OFFLINE-JARAK-JAUH-/ec2b1cd3a4ebd7c6aaac5d9eced1b6d4a86e9f0d/GAMBAR%205.jpg" width="300" alt="Gambar 5" /><br>
-      <sub><b>Halaman Captive Portal (Offline)</b></sub>
+      <sub><b>Halaman SSID Konfigurasi</b></sub>
     </td>
     <td align="center" width="50%">
       <img src="https://raw.githubusercontent.com/AtherNet29/ESP8266-SMART-HOME-ONLINE-OFFLINE-JARAK-JAUH-/ec2b1cd3a4ebd7c6aaac5d9eced1b6d4a86e9f0d/GAMBAR%206.jpg" width="300" alt="Gambar 6" /><br>
-      <sub><b>Halaman Setting WiFi</b></sub>
+      <sub><b>Halaman Info Pemasangan</b></sub>
     </td>
   </tr>
-  <tr>
-    <td align="center" width="50%">
-      <img src="https://raw.githubusercontent.com/AtherNet29/ESP8266-SMART-HOME-ONLINE-OFFLINE-JARAK-JAUH-/ec2b1cd3a4ebd7c6aaac5d9eced1b6d4a86e9f0d/GAMBAR%207.jpg" width="300" alt="Gambar 7" /><br>
-      <sub><b>Web Dashboard Live Control</b></sub>
-    </td>
-    <td align="center" width="50%">
-      <img src="https://raw.githubusercontent.com/AtherNet29/ESP8266-SMART-HOME-ONLINE-OFFLINE-JARAK-JAUH-/ec2b1cd3a4ebd7c6aaac5d9eced1b6d4a86e9f0d/GAMBAR%208.jpg" width="300" alt="Gambar 8" /><br>
-      <sub><b>Multi Device Dashboard</b></sub>
-    </td>
-  </tr>
+ 
 </table>
 
 <hr>
