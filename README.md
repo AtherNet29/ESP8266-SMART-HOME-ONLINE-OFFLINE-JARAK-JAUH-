@@ -86,69 +86,7 @@
   Gunakan <b>power supply 5V minimal 2A</b> jika 4 lampu dinyalakan bersamaan untuk menghindari drop voltage yang menyebabkan Wemos reset.</p>
 </div>
 
-<hr>
 
-<h2>📦 Konfigurasi MQTT</h2>
-
-<h3>Broker & Port</h3>
-<table>
-  <tr><th>Parameter</th><th>Nilai</th></tr>
-  <tr><td>MQTT Broker</td><td><code>broker.emqx.io</code></td></tr>
-  <tr><td>Port</td><td><code>1883</code></td></tr>
-  <tr><td>Username</td><td><i>Tidak digunakan (kosong)</i></td></tr>
-  <tr><td>Password</td><td><i>Tidak digunakan (kosong)</i></td></tr>
-</table>
-
-<h3>Topic Structure</h3>
-<p>Berikut adalah struktur topic MQTT berdasarkan <code>BASE_TOPIC = "smarthome/device04"</code>:</p>
-<table>
-  <tr><th>Topic</th><th>Direction</th><th>Keterangan</th></tr>
-  <tr><td><code>smarthome/device04/state</code></td><td>Publish (Retained)</td><td>Status 4 relay dalam format JSON</td></tr>
-  <tr><td><code>smarthome/device04/names</code></td><td>Publish (Retained)</td><td>Nama custom 4 lampu dalam format JSON</td></tr>
-  <tr><td><code>smarthome/device04/schedule</code></td><td>Publish (Retained)</td><td>Data jadwal aktif dalam format JSON Array</td></tr>
-  <tr><td><code>smarthome/device04/cmd</code></td><td>Subscribe</td><td>Perintah kontrol relay & timer</td></tr>
-  <tr><td><code>smarthome/device04/sch_cmd</code></td><td>Subscribe</td><td>Perintah tambah/hapus jadwal</td></tr>
-  <tr><td><code>smarthome/device04/name_cmd</code></td><td>Subscribe</td><td>Perintah ubah nama lampu</td></tr>
-</table>
-
-<h3>Format Perintah (Topic: <code>.../cmd</code>)</h3>
-<table>
-  <tr><th>Perintah</th><th>Fungsi</th></tr>
-  <tr><td><code>r1=1</code> / <code>r1=0</code></td><td>Nyalakan / Matikan Lampu 1</td></tr>
-  <tr><td><code>r2=1</code> / <code>r2=0</code></td><td>Nyalakan / Matikan Lampu 2</td></tr>
-  <tr><td><code>r3=1</code> / <code>r3=0</code></td><td>Nyalakan / Matikan Lampu 3</td></tr>
-  <tr><td><code>r4=1</code> / <code>r4=0</code></td><td>Nyalakan / Matikan Lampu 4</td></tr>
-  <tr><td><code>all=1</code> / <code>all=0</code></td><td>Nyalakan / Matikan Semua Lampu</td></tr>
-  <tr><td><code>timer=30</code></td><td>Matikan semua lampu dalam 30 menit</td></tr>
-</table>
-
-<h3>Format Perintah Jadwal (Topic: <code>.../sch_cmd</code>)</h3>
-<table>
-  <tr><th>Perintah</th><th>Format</th><th>Keterangan</th></tr>
-  <tr><td>Tambah Jadwal</td><td><code>add:relay:state:day:hour:minute</code></td><td>relay(0-4), state(0/1), day(0-6=Sen-Sab, 7=Setiap hari), hour(0-23), minute(0-59)</td></tr>
-  <tr><td>Hapus Jadwal</td><td><code>del:id</code></td><td>id = index jadwal (0-9)</td></tr>
-</table>
-<p><i>Contoh: <code>add:1:1:7:06:00</code> → Nyalakan relay 1 setiap hari jam 06:00</i></p>
-
-<h3>Format Perintah Nama (Topic: <code>.../name_cmd</code>)</h3>
-<table>
-  <tr><th>Perintah</th><th>Format</th><th>Keterangan</th></tr>
-  <tr><td>Ubah Nama</td><td><code>set:id:nama_lampu</code></td><td>id(1-4), nama lampu (maks 31 karakter)</td></tr>
-</table>
-<p><i>Contoh: <code>set:1:Lampu Teras</code> → Mengubah nama relay 1 menjadi "Lampu Teras"</i></p>
-
-<h3>Format Payload Publish</h3>
-
-<p><b>State:</b></p>
-<pre><code>{"s1":true,"s2":false,"s3":true,"s4":false}</code></pre>
-
-<p><b>Names:</b></p>
-<pre><code>{"n1":"Lampu Teras","n2":"Lampu Kamar","n3":"Lampu Dapur","n4":"Lampu Garasi"}</code></pre>
-
-<p><b>Schedule:</b></p>
-<pre><code>[{"id":0,"relay":1,"state":1,"day":7,"hour":6,"minute":0},{"id":1,"relay":1,"state":0,"day":7,"hour":22,"minute":0}]</code></pre>
-
-<hr>
 
 <h2>📦 Cara Menggunakan</h2>
 
