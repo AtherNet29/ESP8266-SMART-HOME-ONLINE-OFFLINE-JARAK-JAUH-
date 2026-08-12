@@ -6,7 +6,7 @@
   <img src="https://img.shields.io/badge/💡_Smart_Lamp_Control-4CH_RELAY-blue" />
 </div>
 
-<h1 align="center">🏠 SMART HOME - Lampu 4 Channel</h1>
+<h1 align="center">🏠 SMART HOME - Lampu 1 Channel , ,2 Channel, ,4 Channel Dan 8 Channel Online/Offline</h1>
 <p align="center">
   <b>Kontrol Lampu Rumah via MQTT & Web Dashboard</b><br>
   <i>Saklar pintar berbasis Wemos D1 Mini dengan relay 4 channel, scheduler, timer, dan kontrol jarak jauh melalui internet.</i>
