@@ -140,13 +140,13 @@
 <h2>🔍 Troubleshooting</h2>
 <table>
   <tr><th>Masalah</th><th>Solusi</th></tr>
-  <tr><td>LED built-in berkedip terus</td><td>MAC address tidak cocok. Cek dan sesuaikan <code>allowedMAC</code></td></tr>
-  <tr><td>Lampu flicker saat booting</td><td>Normal untuk sesaat. Pin di-set HIGH segera setelah <code>setup()</code></td></tr>
+  <tr><td>LED built-in berkedip terus</td><td>MAC address tidak cocok. Cek dan sesuaikan </td></tr>
+  <tr><td>Lampu flicker saat booting</td><td>Normal untuk sesaat. Pin di-set HIGH segera setelah</td></tr>
   <tr><td>Wemos sering reset saat 4 lampu nyala</td><td>Gunakan power supply 5V minimal 2A. Jangan gunakan catu daya dari USB laptop</td></tr>
   <tr><td>Tidak bisa connect WiFi rumah</td><td>Pastikan SSID & password benar. WiFi hanya mendukung <b>2.4 GHz</b></td></tr>
   <tr><td>Captive Portal tidak muncul</td><td>Ketik manual <code>http://192.168.1.1</code> di browser</td></tr>
   <tr><td>MQTT tidak terhubung</td><td>Pastikan WiFi terhubung. Cek koneksi internet. Broker <code>broker.emqx.io</code> membutuhkan koneksi internet</td></tr>
-  <tr><td>Schedule tidak berjalan</td><td>Butuh koneksi internet untuk NTP (sinkronisasi waktu). Cek <code>timeClient.isTimeSet()</code></td></tr>
+  <tr><td>Schedule tidak berjalan</td><td>Butuh koneksi internet untuk NTP (sinkronisasi waktu).</td></tr>
   <tr><td>Reset pabrik tidak bekerja</td><td>Pastikan HP cukup dekat (&lt;1m), hotspot bernama persis <code>SETELAN_AWAL</code>, dan tunggu hingga 30 detik</td></tr>
   <tr><td>OTA update gagal</td><td>Pastikan file yang di-upload berekstensi <code>.bin</code> dan ukurannya tidak melebihi kapasitas flash</td></tr>
 </table>
