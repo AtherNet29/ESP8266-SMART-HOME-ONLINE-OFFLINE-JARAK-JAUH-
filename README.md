@@ -158,32 +158,42 @@
 <table align="center">
   <tr>
     <td align="center" width="50%">
-      <img src="https://raw.githubusercontent.com/USERNAME/REPO-NAMA/BRANCH/Gambar%201.jpg" width="300" alt="Gambar 1" /><br>
-      <sub><b>Produk Smart Lamp</b></sub>
+      <img src="https://raw.githubusercontent.com/AtherNet29/ESP8266-SMART-HOME-ONLINE-OFFLINE-JARAK-JAUH-/ec2b1cd3a4ebd7c6aaac5d9eced1b6d4a86e9f0d/GAMBAR%201.jpg" width="300" alt="Gambar 1" /><br>
+      <sub><b>Produk Smart Home 4CH</b></sub>
     </td>
     <td align="center" width="50%">
-      <img src="https://raw.githubusercontent.com/USERNAME/REPO-NAMA/BRANCH/Gambar%202.jpg" width="300" alt="Gambar 2" /><br>
+      <img src="https://raw.githubusercontent.com/AtherNet29/ESP8266-SMART-HOME-ONLINE-OFFLINE-JARAK-JAUH-/ec2b1cd3a4ebd7c6aaac5d9eced1b6d4a86e9f0d/GAMBAR%202.jpg" width="300" alt="Gambar 2" /><br>
       <sub><b>Detail Modul Wemos & Relay</b></sub>
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
-      <img src="https://raw.githubusercontent.com/USERNAME/REPO-NAMA/BRANCH/Gambar%203.jpg" width="300" alt="Gambar 3" /><br>
-      <sub><b>Koneksi Kabel AC 220V</b></sub>
+      <img src="https://raw.githubusercontent.com/AtherNet29/ESP8266-SMART-HOME-ONLINE-OFFLINE-JARAK-JAUH-/ec2b1cd3a4ebd7c6aaac5d9eced1b6d4a86e9f0d/GAMBAR%203.jpg" width="300" alt="Gambar 3" /><br>
+      <sub><b>Skema Koneksi Kabel</b></sub>
     </td>
     <td align="center" width="50%">
-      <img src="https://raw.githubusercontent.com/USERNAME/REPO-NAMA/BRANCH/Halaman%20Setup.jpg" width="300" alt="Halaman Setup" /><br>
-      <sub><b>Halaman Setup Captive Portal</b></sub>
+      <img src="https://raw.githubusercontent.com/AtherNet29/ESP8266-SMART-HOME-ONLINE-OFFLINE-JARAK-JAUH-/ec2b1cd3a4ebd7c6aaac5d9eced1b6d4a86e9f0d/GAMBAR%204.jpg" width="300" alt="Gambar 4" /><br>
+      <sub><b>Proses Pemasangan</b></sub>
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
-      <img src="https://raw.githubusercontent.com/USERNAME/REPO-NAMA/BRANCH/Halaman%20Dashboard.jpg" width="300" alt="Halaman Dashboard" /><br>
+      <img src="https://raw.githubusercontent.com/AtherNet29/ESP8266-SMART-HOME-ONLINE-OFFLINE-JARAK-JAUH-/ec2b1cd3a4ebd7c6aaac5d9eced1b6d4a86e9f0d/GAMBAR%205.jpg" width="300" alt="Gambar 5" /><br>
+      <sub><b>Halaman Captive Portal (Offline)</b></sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="https://raw.githubusercontent.com/AtherNet29/ESP8266-SMART-HOME-ONLINE-OFFLINE-JARAK-JAUH-/ec2b1cd3a4ebd7c6aaac5d9eced1b6d4a86e9f0d/GAMBAR%206.jpg" width="300" alt="Gambar 6" /><br>
+      <sub><b>Halaman Setting WiFi</b></sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <img src="https://raw.githubusercontent.com/AtherNet29/ESP8266-SMART-HOME-ONLINE-OFFLINE-JARAK-JAUH-/ec2b1cd3a4ebd7c6aaac5d9eced1b6d4a86e9f0d/GAMBAR%207.jpg" width="300" alt="Gambar 7" /><br>
       <sub><b>Web Dashboard Live Control</b></sub>
     </td>
     <td align="center" width="50%">
-      <img src="https://raw.githubusercontent.com/USERNAME/REPO-NAMA/BRANCH/schematic.jpg" width="300" alt="Schematic" /><br>
-      <sub><b>Diagram Skematik</b></sub>
+      <img src="https://raw.githubusercontent.com/AtherNet29/ESP8266-SMART-HOME-ONLINE-OFFLINE-JARAK-JAUH-/ec2b1cd3a4ebd7c6aaac5d9eced1b6d4a86e9f0d/GAMBAR%208.jpg" width="300" alt="Gambar 8" /><br>
+      <sub><b>Multi Device Dashboard</b></sub>
     </td>
   </tr>
 </table>
